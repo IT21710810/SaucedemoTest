@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/OneDrive/Desktop/QA_Automation/SLIIT_Assignement">
+        <classes>
+            <class name="TestNg.SaucedemoTest">
+                <methods>
+                    <include name="testStandardUserLogin"/>
+                    <include name="testLockedOutUserLogin"/>
+                    <include name="testProblemUserLogin"/>
+                    <include name="testPerformanceGlitchUserLogin"/>
+                    <include name="testValidUsernameInvalidPassword"/>
+                    <include name="testInvalidUsernameValidPassword"/>
+                    <include name="testHamburgerMenu"/>
+                    <include name="testProductImageClick"/>
+                    <include name="testAddToCartButtonChangesToRemove"/>
+                    <include name="testShoppingCartContainer"/>
+                    <include name="testContinueShoppingButton"/>
+                    <include name="testAddAnotherItemAfterContinuingShopping"/>
+                    <include name="testProceedToCheckoutWithEmptyForm"/>
+                    <include name="testCheckoutFormFirstNameEmpty"/>
+                    <include name="testCheckoutFormLastNameEmpty"/>
+                    <include name="testCheckoutFormPostalCodeEmpty"/>
+                    <include name="testCheckoutFormWithAllDetails"/>
+                    <include name="testVerifyItemPricesAndTotal"/>
+                    <include name="testCompleteCheckoutAndVerify"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
